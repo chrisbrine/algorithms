@@ -1,0 +1,17 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "start": "node lib/index.js",
+    "build": "tsc",
+    "test": "ts-node src/index.ts"
+  },
+  "author": "Chris Brine",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
